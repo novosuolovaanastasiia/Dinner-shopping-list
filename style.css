@@ -1,0 +1,137 @@
+* {
+  transition: all .1s ease-in;
+}
+
+body {
+  margin: 20px 285px;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  width: 792px;
+  background-color: #E5E5E5;
+}
+
+header {
+  background-color: #4A4F56;
+  height: 82px;
+}
+
+h1, h3 {
+  color: #FF8984;
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 19px;
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+main {
+  background-color: #3B3F45;
+}
+
+ul li:nth-child(even) {
+  background-color: #7A7593;
+}
+
+ul li:nth-child(odd) {
+  background-color: #88839E;
+}
+
+li:active {
+  color: #FF8984;
+}
+
+li:hover {
+  border-top: 3px white solid;
+  border-bottom: 3px white solid;
+}
+
+:checked+.pickles,
+:checked+.apples,
+:checked+.oranges,
+:checked+.plates,
+:checked+.bentos,
+:checked+.bottle {
+  text-decoration-line: line-through;
+  color: #625E77;
+}
+
+ul {
+  margin: 0px 129px;
+  padding: 20px 0px 45px 0px;
+}
+
+ul li {
+  list-style: none;
+  height: 45px;
+  width: 534px;
+  color: white;
+}
+
+input {
+  margin: 16px;
+  height: 19px;
+  width: 19px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+.pickles::after {
+  content: '(for the next lessons about CSS)';
+  font-size: 13px;
+  padding-top: 45%;
+}
+
+.apples::after {
+  content: '(for more CSS manipulations)';
+  font-size: 13px;
+  padding-top: 49%;
+}
+
+.oranges::after {
+  content: '(because they are awesome)';
+  font-size: 13px;
+  padding-top: 64%;
+}
+
+.plates::after {
+  content: '(hm... they always disappear)';
+  font-size: 13px;
+  padding-top: 64%;
+}
+
+.bottle::after {
+  content: '(for my friends)';
+  font-size: 13px;
+  padding-top: 59%;
+}
+
+main {
+  height: 425px;
+}
+
+footer {
+  background-color: #4A4F56;
+  width: 534px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 129px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #FF8984;
+  text-align: center;
+}
